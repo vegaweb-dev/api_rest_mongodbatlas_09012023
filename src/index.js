@@ -6,7 +6,7 @@ require('dotenv').config();
 
 //Set port
 app.set('port', process.env.PORT || 3000);
-//Middlewares
+//Middlewares s
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('combined'));
